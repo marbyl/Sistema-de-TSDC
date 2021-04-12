@@ -24,6 +24,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Por favor complete la siguiente información:**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+ - SO: Windows 10
+ - Navegador: Chrome
+ - Versión del navegador: 89.0.4389.114
+ - Versión de la aplicación: 3.3.0
