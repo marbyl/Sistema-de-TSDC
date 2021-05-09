@@ -1,5 +1,10 @@
-# Sistema-de-TSDC
-Funcionalidades y escenarios probados. 
+# Estudiantes
+|Nombre |Correo|
+|--|--|
+|Cesar Andrade |co.andrade86@uniandes.edu.co|
+|Wilson Beltran |w.beltran@uniandes.edu.co|
+|Marby Leguizamón|m.leguizamong@uniandes.edu.co|
+# Funcionalidades
 - Agregar post 
 - Editar post
 - Publicar post
@@ -11,3 +16,4 @@ Funcionalidades y escenarios probados.
 - Editar usuario
 - Invitar usuarios
 - Suspender usuario
+# Escenarios
