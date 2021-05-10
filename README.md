@@ -32,3 +32,9 @@
 13. Asociar tag a post existente
 14. Asociar tag a page existente 
 15. Agregar opción en el menú. Consultar que aparezca en la vista del cliente.
+
+# Cypress
+[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
+
+# Kraken
+
