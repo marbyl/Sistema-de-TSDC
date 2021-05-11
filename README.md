@@ -51,3 +51,6 @@
 14. Asociar tag a page existente 
 15. Agregar opción en el menú. Consultar que aparezca en la vista del cliente.
 
+| Application  |  Feature File | Steps Definition | Properties file | Report Link |
+|:-------------|:-------------|:-------------|:------------------|:-------|
+| Ghost| [.feature](/KrakenMobile/ghost.feature)|--- | [kraken_properties ](/KrakenMobile/kraken_properties.json) |[report](/KrakenMobile/Report.zip) |
