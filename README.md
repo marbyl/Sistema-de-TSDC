@@ -4,7 +4,9 @@
 |Cesar Andrade |co.andrade86@uniandes.edu.co|
 |Wilson Beltran |w.beltran@uniandes.edu.co|
 |Marby Leguizamón|m.leguizamong@uniandes.edu.co|
+
 # Funcionalidades
+- Login
 - Agregar post 
 - Editar post
 - Publicar post
@@ -16,9 +18,25 @@
 - Editar usuario
 - Invitar usuarios
 - Suspender usuario
-# Escenarios
-1. Intento de loguin con usuario inválido
-2. Inicio de sesión con usuario válido
+
+# Cypress
+[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
+
+## Escenarios Cypress
+1. Intento de login con contraseña inválida
+2. Intento de login con usuario inválido
+3. Inicio de sesión sin información
+4. Inicio de sesión con usuario válido
+5. Dado una sesión válida- Crear post con título - navegación
+6. Dado una sesión válida-Crear post con título navegación segundo nivel
+7. Dado una sesión válida-Crear post con título
+8. Dado una sesión válida-Crear post con título - ir al listado de post
+9. Dado una sesión válida-Crear post con título - buscar en el listado
+
+## Escenarios Kraken
+1. Intento de login con contraseña inválida
+2. Intento de login con usuario inválido
+3. Inicio de sesión con usuario válido
 3. Crear post con título y consultar en el listado
 4. Publicar post existente inmediatamente. Plublished view post
 5. Update publicación existente actualizando el contenido
@@ -32,9 +50,4 @@
 13. Asociar tag a post existente
 14. Asociar tag a page existente 
 15. Agregar opción en el menú. Consultar que aparezca en la vista del cliente.
-
-# Cypress
-[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
-
-# Kraken
 
