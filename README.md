@@ -22,6 +22,15 @@
 # Cypress
 [![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 
+## Para tener en cuenta
+1. Crear en la aplicación ghost el siguiente usuario.
+
+|Correo|Clave|
+|--|--|
+|m.leguizamong@uniandes.edu.co|123456789!|
+
+2. Las pruebas están dentro del directorio integration/examples/ghost
+
 ## Escenarios Cypress
 1. Intento de login con contraseña inválida
 2. Intento de login con usuario inválido
