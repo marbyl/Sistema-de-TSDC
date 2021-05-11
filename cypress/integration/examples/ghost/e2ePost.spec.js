@@ -17,7 +17,7 @@ context('Actions', () => {
         cy.get('#ember28').click()
         cy.wait(7000);
         cy.url().should('eq', 'http://localhost:2368/ghost/#/posts')
-        cy.get('#ember113').click()
+        cy.get('a[href*="editor/post"]').first().click()
         cy.wait(7000);
         cy.url().should('eq', 'http://localhost:2368/ghost/#/editor/post')
     })
