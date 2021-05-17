@@ -108,6 +108,11 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 14. Asociar tag a page existente 
 15. Agregar opción en el menú. Consultar que aparezca en la vista del cliente.
 
+##  Pasos para ejecutar los escenarios Ghost Versión 3.3.0 y 3.42.5
+
+1. Actualizar el archivo kraken_steps.rb con el archivo disponible  [Aquí](/KrakenMobile/kraken_steps.rb)
+2. Descargar el archivo [kraken_properties.json](/KrakenMobile/kraken_properties.json)
+
 | Application  |  Feature File | Steps Definition | Properties file | Report Link |
 |:-------------|:-------------|:-------------|:------------------|:-------|
 | Ghost| [.feature](/KrakenMobile/ghost.feature)|--- | [kraken_properties ](/KrakenMobile/kraken_properties.json) |[report](/KrakenMobile/Report.zip) |
