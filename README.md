@@ -33,6 +33,8 @@ Nuestro equipo está conformado por 3 integrantes. Trabajaremos 15 escenarios co
 4. Descargue el repositorio del código en su máquina. Desde powershell ingrese el siguiente comando: git clone https://github.com/marbyl/Sistema-de-TSDC.git
 5. Dentro de la ruta escogida para contener el código del paso anterior y desde powershell ubíquese en el siguiente directorio : Sistema-de-TSDC/Cypress/Pruebas_V3.3.0/
 6. Ejecute el comando cypress open. Le aparecerá una imagen como la siguiente: 
+
+
 ![image](https://user-images.githubusercontent.com/78806424/118421599-0a06f380-b687-11eb-9b93-beceafadb1f4.png)
 7. Haga clic en cada enlace teniendo en cuenta el orden de numeración para ejecutar las pruebas.
 
@@ -50,12 +52,6 @@ Nuestro equipo está conformado por 3 integrantes. Trabajaremos 15 escenarios co
 6. Ejecute el comando cypress open. Le aparecerá una imagen como la siguiente: 
 ![image](https://user-images.githubusercontent.com/78806424/118421599-0a06f380-b687-11eb-9b93-beceafadb1f4.png)
 7. Haga clic en cada enlace teniendo en cuenta el orden de numeración para ejecutar las pruebas.
-
-
-
-
-2. Las pruebas están dentro del directorio integration/examples/ghost
-
 ## Escenarios Cypress
 1. Intento de login con contraseña inválida
 2. Intento de login con usuario inválido
