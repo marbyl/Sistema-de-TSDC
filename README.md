@@ -117,5 +117,5 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 
 ### Los screenshot de las pruebas realizadas se encuentran en la siguiente ruta: 
 - [Ghost V3.3.0](/KrakenMobile/report_kraken/EscenariosVersion3.3.zip)  
-- [Ghost V3.42.5](/KrakenMobile/report_kraken/EscenariosVersion3.4)
+- [Ghost V3.42.5](/KrakenMobile/report_kraken/EscenariosVersion3.4.zip)
 
