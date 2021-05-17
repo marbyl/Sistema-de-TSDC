@@ -1,0 +1,16 @@
+{
+  "name": "6.semana6_tallervtr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "entry point": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.12.0-next-alpha-may-16-2021",
+    "resemblejs": "^3.2.5"
+  }
+}
