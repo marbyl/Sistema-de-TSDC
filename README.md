@@ -136,6 +136,9 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 
 9. Los screenshot de las pruebas realizadas se encuentran en el siguiente directorio del repositorio clonado: Sistema-de-TSDC/Cypress/Pruebas_V3.42.5/cypress/screenshots/
   https://github.com/marbyl/Sistema-de-TSDC/tree/main/Cypress/Pruebas_3.42.5/cypress/screenshots/ghost
+  
+## Reporte HTML de las diferencias visuales : 
+- Reporte: resultados disponibles [aquí](/Cypress/report_html/screenshots/ghost)
 
 ## Escenarios Cypress
 1. Intento de login con contraseña inválida
