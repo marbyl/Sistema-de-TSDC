@@ -1,4 +1,5 @@
 # Estudiantes
+Nuestro equipo está conformado por 3 integrantes. Trabajaremos 15 escenarios con cada herramienta.
 |Nombre |Correo|
 |--|--|
 |Cesar Andrade |co.andrade86@uniandes.edu.co|
@@ -41,7 +42,15 @@
 7. Dado una sesión válida-Crear post con título
 8. Dado una sesión válida-Crear post con título - ir al listado de post
 9. Dado una sesión válida-Crear post con título - buscar en el listado
+10. Dado una sesión válida, con un post existente - publicarlo
+11. Dado una sesión válida, un post publica - despublicarla
+12. Dado una sesión válida- Crear page con título - navegación
+13. Dado una sesión válida-Crear page con título navegación segundo nivel
+14. Dado una sesión válida-Crear page con título
+15. Dado una sesión válida-Crear page con título - ir al listado de page
+16. Dado una sesión válida-Crear page con título - buscar en el listado
 
+# Kraken
 ## Escenarios Kraken
 1. Intento de login con contraseña inválida
 2. Intento de login con usuario inválido
