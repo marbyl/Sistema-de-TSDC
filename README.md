@@ -63,6 +63,7 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 5. Dentro de la ruta escogida para contener el código del paso anterior y desde powershell ubíquese en el siguiente directorio : Sistema-de-TSDC/Cypress/Pruebas_V3.3.0/
 6. Ejecute el comando cypress open. Le aparecerá una imagen como la siguiente: 
 ![image](https://user-images.githubusercontent.com/78806424/118421599-0a06f380-b687-11eb-9b93-beceafadb1f4.png)
+
 7. Haga clic en cada enlace teniendo en cuenta el orden de numeración para ejecutar las pruebas.
 8. Los screenshot de las pruebas realizadas se encuentran en el siguiente directorio del repositorio clonado: Sistema-de-TSDC/Cypress/Pruebas_V3.3.0/cypress/screenshots/
   https://github.com/marbyl/Sistema-de-TSDC/tree/main/Cypress/Pruebas_V3.3.0/cypress/screenshots
