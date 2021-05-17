@@ -108,10 +108,15 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 14. Asociar tag a page existente 
 15. Agregar opción en el menú. Consultar que aparezca en la vista del cliente.
 
-##  Pasos para ejecutar los escenarios Ghost Versión 3.3.0 y 3.42.5
+##  Pasos para ejecutar los escenarios --> Ghost versión 3.3.0 y 3.42.5
 
-1. Actualizar el archivo **kraken_steps.rb** con el archivo disponible [aquí](/KrakenMobile/kraken_steps.rb)
-2. Descargar el archivo [kraken_properties.json](/KrakenMobile/kraken_properties.json), el cual modifica y adiciona las siguientes líneas de código:
+1. Instalar la versión 3.3.0 y 3.42.5 de ghost.  En el siguiente enlace podrá encontrar un tutorial que servirá de guía: https://www.coursera.org/learn/pruebas-automatizadas-software/supplement/gjD9z/como-desplegar-ghost-de-forma-local
+2. Inicie ghost y cree el siguiente usuario:
+|Correo|Clave|
+|--|--|
+|w.beltran@uniandes.edu.co|GmFxAiH33vXrteZ|
+
+3. Actualizar el archivo **kraken_steps.rb** con el archivo disponible [aquí](/KrakenMobile/kraken_steps.rb), el cual modifica y adiciona las siguientes líneas de código:
 ```shell
 Then(/^I Start to Feature "([^\"]*)" Scenario "([^\"]*)"$/) do |feacture,scenario|
   @Feacture=feacture
@@ -132,6 +137,8 @@ AfterStep do |_scenario|
 
 end
 ```
+
+4. Descargar el archivo [kraken_properties.json](/KrakenMobile/kraken_properties.json)
 5. Descargar los [escenarios](/KrakenMobile/escenarios) a ejecutar, funcionan tanto para la versión 3.3.0 como la 3.42.5
 6. Ejecutar los excenarios haciendo uso del archivo **properties**, como se muestra acontinuación
 
