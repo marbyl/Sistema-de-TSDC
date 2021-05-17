@@ -108,6 +108,40 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 14. Asociar tag a page existente 
 15. Agregar opción en el menú. Consultar que aparezca en la vista del cliente.
 
-| Application  |  Feature File | Steps Definition | Properties file | Report Link |
-|:-------------|:-------------|:-------------|:------------------|:-------|
-| Ghost| [.feature](/KrakenMobile/ghost.feature)|--- | [kraken_properties ](/KrakenMobile/kraken_properties.json) |[report](/KrakenMobile/Report.zip) |
+##  Pasos para ejecutar los escenarios Ghost Versión 3.3.0 y 3.42.5
+
+1. Actualizar el archivo **kraken_steps.rb** con el archivo disponible [aquí](/KrakenMobile/kraken_steps.rb)
+2. Descargar el archivo [kraken_properties.json](/KrakenMobile/kraken_properties.json), el cual modifica y adiciona las siguientes líneas de código:
+```shell
+Then(/^I Start to Feature "([^\"]*)" Scenario "([^\"]*)"$/) do |feacture,scenario|
+  @Feacture=feacture
+  @Scenario=scenario
+  @Paso=0
+end
+ 
+# Hooks
+AfterStep do |_scenario|  
+  if @Paso > 0
+	  puts "Feacture:" + @Feacture + " " + "Scenario:" + @Scenario + " Paso:"+ @Paso.to_s
+	  path = "#{ENV[K::SCREENSHOT_PATH]}/#{@Feacture}_#{@Scenario}_paso_#{@Paso.to_s}.png"
+	  File.write("#{ENV[K::SCREENSHOT_PATH]}/#{@Feacture}_#{@Scenario}.txt","#{@Feacture}-#{@Scenario}-"+@Paso.to_s)
+	  @driver.save_screenshot(path)
+	  embed(path, 'image/png', File.basename(path))
+  end
+  @Paso=@Paso+1
+
+end
+```
+5. Descargar los [escenarios](/KrakenMobile/escenarios) a ejecutar, funcionan tanto para la versión 3.3.0 como la 3.42.5
+6. Ejecutar los excenarios haciendo uso del archivo **properties**, como se muestra acontinuación
+
+```shell
+bundle exec kraken-mobile run --properties=kraken_properties.json
+```
+
+### Los screenshot de las pruebas realizadas se encuentran en la siguiente ruta: 
+- [Ghost V3.3.0](/KrakenMobile/report_kraken/EscenariosVersion3.3.zip)  
+- [Ghost V3.42.5](/KrakenMobile/report_kraken/EscenariosVersion3.4.zip)
+
+### Reporte HTML de las diferencias visuales : 
+- [ResembleJS](KrakenMobile/report_html/ResembleJS): resultados disponibles [aquí](/KrakenMobile/report_html/ResembleJS/screenshots/ghost)
