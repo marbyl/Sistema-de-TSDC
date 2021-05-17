@@ -114,6 +114,8 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 2. Descargar el archivo [kraken_properties.json](/KrakenMobile/kraken_properties.json)
 3. Descargar los [escenarios](/KrakenMobile/escenarios) a ejecutar, funcionan tanto para la versión 3.3.0 como la 3.42.5
 
-| Application  |  Feature File | Steps Definition | Properties file | Report Link |
-|:-------------|:-------------|:-------------|:------------------|:-------|
-| Ghost| [.feature](/KrakenMobile/ghost.feature)|--- | [kraken_properties ](/KrakenMobile/kraken_properties.json) |[report](/KrakenMobile/Report.zip) |
+
+### Los screenshot de las pruebas realizadas se encuentran en la siguiente ruta: 
+- [Ghost V3.3.0](/KrakenMobile/report_kraken/EscenariosVersion3.3.zip)  
+- [Ghost V3.42.5](/KrakenMobile/report_kraken/EscenariosVersion3.4)
+
