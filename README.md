@@ -48,6 +48,7 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 
 7. Haga clic en cada enlace teniendo en cuenta el orden de numeración para ejecutar las pruebas.
 8. Los screenshot de las pruebas realizadas se encuentran en el siguiente directorio del repositorio clonado: Sistema-de-TSDC/Cypress/Pruebas_V3.3.0/cypress/screenshots/
+  https://github.com/marbyl/Sistema-de-TSDC/tree/main/Cypress/Pruebas_V3.3.0/cypress/screenshots
 
 ## Pasos para ejecutar los escenarios Versión 3.42.5
 1. Instalar la versión 3.42.5 de ghost.  En el siguiente enlace podrá encontrar un tutorial que servirá de guía: https://www.coursera.org/learn/pruebas-automatizadas-software/supplement/gjD9z/como-desplegar-ghost-de-forma-local
@@ -64,6 +65,7 @@ En las pruebas de Cypress usamos el patrón Given when Then de la siguiente mane
 ![image](https://user-images.githubusercontent.com/78806424/118421599-0a06f380-b687-11eb-9b93-beceafadb1f4.png)
 7. Haga clic en cada enlace teniendo en cuenta el orden de numeración para ejecutar las pruebas.
 8. Los screenshot de las pruebas realizadas se encuentran en el siguiente directorio del repositorio clonado: Sistema-de-TSDC/Cypress/Pruebas_V3.3.0/cypress/screenshots/
+  https://github.com/marbyl/Sistema-de-TSDC/tree/main/Cypress/Pruebas_V3.3.0/cypress/screenshots
 
 ## Escenarios Cypress
 1. Intento de login con contraseña inválida
