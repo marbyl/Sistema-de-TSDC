@@ -43,6 +43,7 @@ Nuestro equipo está conformado por 3 integrantes. Trabajaremos 15 escenarios co
 
 1. Instalar la versión 3.3.0 y 3.42.5 de ghost.  En el siguiente enlace podrá encontrar un tutorial que servirá de guía: https://www.coursera.org/learn/pruebas-automatizadas-software/supplement/gjD9z/como-desplegar-ghost-de-forma-local
 2. Inicie ghost y cree el siguiente usuario:
+
 |Correo|Clave|
 |--|--|
 |w.beltran@uniandes.edu.co|GmFxAiH33vXrteZ|
